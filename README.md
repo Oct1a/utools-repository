@@ -1,3 +1,7 @@
+下载地址：[Release plugins · Oct1a/utools-repository (github.com)](https://github.com/Oct1a/utools-repository/releases/tag/publish)
+
+
+
 ## 1️⃣ 修改文件MD5
 
 因无法上架，只能自己下载插件使用了
