@@ -1,0 +1,15 @@
+{
+  "logo": "logo.png",
+  "version": "1.0.0",
+  "homepage": "http://oct1a.cn",
+  "preload": "preload.js",
+  "features": [{
+    "code": "time",
+    "explain": "时钟屏保",
+    "cmds": ["time", "时钟", "屏保"]
+  }, {
+    "code": "time-choose",
+    "explain": "时钟屏保",
+    "cmds": ["时钟设置", "time-setting"]
+  }]
+}

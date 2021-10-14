@@ -1,0 +1,36 @@
+{
+  "logo": "logo.png",
+  "version": "1.0.0",
+  "homepage": "http://oct1a.cn",
+  "preload": "preload.js",
+  "features": [{
+    "code": "getFileName",
+    "explain": "快速获取文件/文件夹名称",
+    "cmds": [{
+      "type": "files",
+      "label": "获取文件名称",
+      "fileType": "file",
+      "minLength": 1
+    }, {
+      "type": "files",
+      "label": "获取文件夹名称",
+      "fileType": "directory",
+      "minLength": 1
+    }, {
+      "type": "window",
+      "label": "获取该窗口名称"
+    }]
+  }, {
+    "code": "copyPathAndFile",
+    "explain": "复制路径（不加文件名）",
+    "cmds": [{
+      "type": "files",
+      "label": "复制路径(不加文件名)",
+      "fileType": "file",
+      "minLength": 1
+    }, {
+      "type": "window",
+      "label": "获取当前程序所在路径"
+    }]
+  }]
+}

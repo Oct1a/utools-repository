@@ -1,0 +1,18 @@
+{
+    "logo": "logo.png",
+    "version": "1.0.0",
+    "description": "修改文件MD5",
+    "homepage": "http://oct1a.cn",
+    "preload": "preload.js",
+    "features": [{
+        "code": "change",
+        "explain": "修改文件MD5",
+        "cmds": [{
+            "type": "files",
+            "fileType": "file",
+            "label": "修改文件MD5",
+            "minLength": 1,
+            "maxLength": 1
+        }]
+    }]
+}
